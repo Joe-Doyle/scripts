@@ -16,7 +16,7 @@ sudo apt update -y
 sudo apt install ros-eloquent-desktop -y
 
 #Environment Setup
-echo 'source /opt/ros/eloquent/setup.bash' >> ~/.bashrc
+echo -e '\nsource /opt/ros/eloquent/setup.bash' >> ~/.bashrc
 
 #Install Colcon
 sudo apt install python3-colcon-common-extensions -y
